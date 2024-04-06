@@ -29,8 +29,8 @@ if (NOT TARGET webgpu)
 
 		FetchContent_Declare(
 			webgpu-backend-dawn
-			GIT_REPOSITORY https://github.com/eliemichel/WebGPU-distribution
-			GIT_TAG        dawn-6376
+			GIT_REPOSITORY https://github.com/domgdsman/WebGPU-distribution
+			GIT_BRANCH     dawn
 			GIT_SHALLOW    TRUE
 		)
 		FetchContent_MakeAvailable(webgpu-backend-dawn)
