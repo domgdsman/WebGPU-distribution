@@ -30,7 +30,7 @@ if (NOT TARGET webgpu)
 		FetchContent_Declare(
 			webgpu-backend-dawn
 			GIT_REPOSITORY https://github.com/domgdsman/WebGPU-distribution
-			GIT_BRANCH     dawn
+			GIT_TAG        origin/dawn
 			GIT_SHALLOW    TRUE
 		)
 		FetchContent_MakeAvailable(webgpu-backend-dawn)
